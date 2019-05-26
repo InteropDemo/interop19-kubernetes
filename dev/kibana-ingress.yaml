@@ -1,0 +1,24 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: alb
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    kubernetes.io/ingress.subnets: subnet-35de781e,subnet-441a331e,subnet-f82e7081,subnet-fc80f8b7
+  generation: 2
+  labels:
+    app: kibana-ingress
+  name: kibana-ingress
+  namespace: kube-system
+spec:
+  rules:
+    - http:
+        paths:
+        - backend:
+            serviceName: kibana-logging
+            servicePort: 5601
+          path: /
+status:
+  loadBalancer:
+    ingress:
+    - {}

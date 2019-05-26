@@ -1,0 +1,6 @@
+aws-ec2-elb:  
+  elb_name: juju-elb
+  aws_access_key: REMOVED
+  aws_secret_key: REMOVED
+  elb_region: us-west-2
+  elb_availability_zones: us-west-2a,us-west-2b,us-west-2c

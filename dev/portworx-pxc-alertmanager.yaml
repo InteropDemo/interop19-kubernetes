@@ -1,0 +1,19 @@
+global:
+  # The smarthost and SMTP sender used for mail notifications.
+  smtp_smarthost: "cyberdog.co:587"
+  smtp_from: "aws@cyberdog.co"
+  smtp_auth_username: "aws@cyberdog.co"
+  smtp_auth_password: "#OV8Xa!96Wz6"
+route:
+  group_by: [Alertname]
+  # Send all notifications to me.
+  receiver: email-me
+receivers:
+  - name: email-me
+    email_configs:
+      - to: "robert@cyberdog.co"
+        from: "aws@cyberdog.co"
+        smarthost: "cyberdog.co:587"
+        auth_username: "aws@cyberdog.co"
+        auth_identity: "aws@cyberdog.co"
+        auth_password: "#OV8Xa!96Wz6"
