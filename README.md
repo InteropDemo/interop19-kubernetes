@@ -15,4 +15,4 @@ The below instructions are for running an AWS EKS backed Kubernetes environment 
 
 
 ## Further Reading & Sources
-[Portworx: Elasticsearch on Kubernetes: How to Run HA ELK stack on Amazon EKS](https://portworx.com/how-run-ha-elasticsearch-elk-amazon-eks/ Portworx How to Run HA ELK stack on Amazon EKS)
+[Portworx: Elasticsearch on Kubernetes: How to Run HA ELK stack on Amazon EKS](https://portworx.com/how-run-ha-elasticsearch-elk-amazon-eks/ "Portworx How to Run HA ELK stack on Amazon EKS")
