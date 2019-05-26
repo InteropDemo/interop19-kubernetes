@@ -7,7 +7,7 @@ The below instructions are for running an AWS EKS backed Kubernetes environment 
 2. Setup IAM role account.
 3. Setup Cloud Foundation through EKS wizard.
 
-## Setup Portworks
+## Setup Portworx
 
 1. 
 
@@ -15,4 +15,4 @@ The below instructions are for running an AWS EKS backed Kubernetes environment 
 
 
 ## Further Reading & Sources
-[https://portworx.com/how-run-ha-elasticsearch-elk-amazon-eks/]
+[Portworx: Elasticsearch on Kubernetes: How to Run HA ELK stack on Amazon EKS](https://portworx.com/how-run-ha-elasticsearch-elk-amazon-eks/ Portworx How to Run HA ELK stack on Amazon EKS)
