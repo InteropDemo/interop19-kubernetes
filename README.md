@@ -13,3 +13,6 @@ The below instructions are for running an AWS EKS backed Kubernetes environment 
 
 ## Setup ELK Stack.
 
+
+## Further Reading & Sources
+[https://portworx.com/how-run-ha-elasticsearch-elk-amazon-eks/]
